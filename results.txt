@@ -1,0 +1,7 @@
+user08:6598
+user18:ppp
+user28:mary
+user38:ariel
+user48:s6e0c
+
+5 password hashes cracked, 0 left

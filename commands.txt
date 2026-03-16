@@ -1,0 +1,63 @@
+    1  sudo apt update
+    2  john --version
+    3  sudo apt install john -y
+    4  john --version
+    5  john
+    6  ls /mnt/c/Users/thodo/asfaleia_assignment
+    7  cp /mnt/c/Users/thodo/asfaleia_assignment/passwords_8.txt ~/
+    8  ls
+    9  ls /mnt/c/Users/thodo/asfaleia_assignment
+   10  cp /mnt/c/Users/thodo/asfaleia_assignment/passwords_8.txt ~/
+   11  ls
+   12  pwd
+   13  cd /mnt/c/Users/thodo/asfaleia_assignment
+   14  pwd
+   15  ls
+   16  cp passwords_8.txt ~/
+   17  cd ~
+   18  ls
+   19  --format=md5crypt
+   20  john --format=md5crypt passwords_8.txt
+   21  john --show passwords_8.txt
+   22  john --format=md5crypt --mask=?d?d?d?d?d passwords_8.txt
+   23  john --format=md5crypt --incremental=Digits passwords_8.txt
+   24  [200~john --show passwords_8.txt
+   25  ~john --show passwords_8.txt
+   26  john --format=md5crypt --incremental=Digits passwords_8.txt
+   27  john --format=md5crypt --incremental=Alnum passwords_8.txt
+   28  john --format=md5crypt --incremental=Alnum --min-length=5 --max-length=5 passwords_8.txt
+   29  sudo snap install john-the-ripper
+   30  snap run john-the-ripper.john --list=formats
+   31  snap info john-the-ripper
+   32  john-the-ripper --list=formats | head
+   33  /snap/bin/john-the-ripper --list=formats | head
+   34  /snap/bin/john-the-ripper --format=md5crypt --mask='?d?d?l?l?l' passwords_8.txt
+   35  /snap/bin/john-the-ripper --show passwords_8.txt
+   36  john --show passwords_8.txt
+   37  /snap/bin/john-the-ripper --pot=~/.john/john.pot --show passwords_8.txt
+   38  john --format=md5crypt --incremental passwords_8.txt
+   39  [200~john --format=md5crypt --incremental=Lower passwords_8.txt
+   40  john --format=md5crypt --incremental=Lower passwords_8.txt
+   41  /snap/bin/john-the-ripper --pot=~/.john/john.pot --format=md5crypt --mask='?d?d?l?l?l' passwords_8.txt
+   42  /snap/bin/john-the-ripper --pot=~/.john/john.pot --format=md5crypt --mask='?d?l?d?l?l' passwords_8.txt
+   43  [200~/snap/bin/john-the-ripper --pot=~/.john/john.pot --format=md5crypt --mask='?l?d?d?l?l' passwords_8.txt
+   44  ~/snap/bin/john-the-ripper --pot=~/.john/john.pot --format=md5crypt --mask='?l?d?d?l?l' passwords_8.txt
+   45  /snap/bin/john-the-ripper --pot=~/.john/john.pot --format=md5crypt --mask='?l?d?d?l?l' passwords_8.txt
+   46  /snap/bin/john-the-ripper --pot=~/.john/john.pot --format=md5crypt --mask='?l?l?d?d?l' passwords_8.txt
+   47  /snap/bin/john-the-ripper --pot=~/.john/john.pot --format=md5crypt --mask='?l?d?l?d?l' passwords_8.txt
+   48  john --show passwords_8.txt
+   49  /snap/bin/john-the-ripper --pot=~/.john/john.pot --show passwords_8.txt
+   50  ls ~/snap/john-the-ripper/*/.john/
+   51  john --pot=~/snap/john-the-ripper/694/.john/john.pot --show passwords_8.txt
+   52  cat ~/snap/john-the-ripper/*/.john/john.pot >> ~/.john/john.pot
+   53  john --show passwords_8.txt
+   54  john --show passwords_8.txt > results.txt
+   55  cat results.txt
+   56  history > commands.txt
+   57  cat commands.txt
+   58  john --version > version.txt
+   59  john
+   60  john > version.txt 2>&1
+   61  cat version.txt
+   62  john --show passwords_8.txt > results.txt
+   63  history > commands.txt
